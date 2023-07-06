@@ -1,0 +1,32 @@
+{
+  "name": "printf200-blog",
+  "version": "0.0.1",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "vitepress": "1.0.0-beta.5"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "sh deploy.sh"
+  },
+  "description": "200的成长记录",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/printf200/printf200-blog.git"
+  },
+  "keywords": [
+    "printf200",
+    "blog"
+  ],
+  "author": "printf200",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/printf200/printf200-blog/issues"
+  },
+  "homepage": "https://github.com/printf200/printf200-blog#readme"
+}
