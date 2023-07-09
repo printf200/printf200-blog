@@ -1,25 +1,16 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Printf200论"
-  text: ""
-  tagline: My great project tagline
+  name: Hi，all
+  text: 大家好，我是200！
+  tagline: 记录我的学习和日常
+  image:
+    src: logo.png
+    alt: logo
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: View on GitHub
+      link: https://github.com/printf200/printf200-blog
 ---
 
