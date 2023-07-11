@@ -27,17 +27,17 @@
           <a v-else :href="articleLink" target="_blank" :title="articleTitle">{{ articleLink }}</a>
         </span>
       </div>
-      <div v-if="isOriginal" class="item">
-        <svg class="icon" viewBox="0 0 1024 1024">
-          <title>作品协议</title>
-          <path d="M0 512a512 512 0 1 0 1024 0A512 512 0 1 0 0 512z" fill="#F3B243"></path>
-          <path d="M540.672 323.584a90.112 90.112 0 1 0 180.224 0 90.112 90.112 0 1 0-180.224 0zM540.672 688.128a90.112 90.112 0 1 0 180.224 0 90.112 90.112 0 1 0-180.224 0zM229.376 512a90.112 90.112 0 1 0 180.224 0 90.112 90.112 0 1 0-180.224 0z" fill="#FFF"></path>
-          <path d="M341.037 480.37l257.344-175.718 27.713 40.592-257.34 175.718z" fill="#FFF"></path>
-          <path d="M349.053 488.452L601.907 670.56l-28.725 39.887L320.307 528.34z" fill="#FFF"></path>
-        </svg>
-        <span>作品采用：</span>
-        <span>《<a :href="theme.copyrightConfig.licenseLink" target="_blank">{{ theme.copyrightConfig.license }}</a>》许可协议授权</span>
-      </div>
+<!--      <div v-if="isOriginal" class="item">-->
+<!--        <svg class="icon" viewBox="0 0 1024 1024">-->
+<!--          <title>作品协议</title>-->
+<!--          <path d="M0 512a512 512 0 1 0 1024 0A512 512 0 1 0 0 512z" fill="#F3B243"></path>-->
+<!--          <path d="M540.672 323.584a90.112 90.112 0 1 0 180.224 0 90.112 90.112 0 1 0-180.224 0zM540.672 688.128a90.112 90.112 0 1 0 180.224 0 90.112 90.112 0 1 0-180.224 0zM229.376 512a90.112 90.112 0 1 0 180.224 0 90.112 90.112 0 1 0-180.224 0z" fill="#FFF"></path>-->
+<!--          <path d="M341.037 480.37l257.344-175.718 27.713 40.592-257.34 175.718z" fill="#FFF"></path>-->
+<!--          <path d="M349.053 488.452L601.907 670.56l-28.725 39.887L320.307 528.34z" fill="#FFF"></path>-->
+<!--        </svg>-->
+<!--        <span>作品采用：</span>-->
+<!--        <span>《<a :href="theme.copyrightConfig.licenseLink" target="_blank">{{ theme.copyrightConfig.license }}</a>》许可协议授权</span>-->
+<!--      </div>-->
     </div>
   </div>
 </template>
