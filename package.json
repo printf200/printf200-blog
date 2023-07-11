@@ -39,8 +39,6 @@
     "url": "https://github.com/printf200/printf200-blog/issues"
   },
   "dependencies": {
-    "@antv/g2plot": "2.4.30",
-    "axios": "^1.4.0",
     "blueimp-md5": "^2.19.0",
     "dayjs": "^1.11.7",
     "fast-glob": "^3.2.12",

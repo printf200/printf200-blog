@@ -10,13 +10,5 @@ export default {
     // extend default theme custom behaviour.
     DefaultTheme.enhanceApp(ctx);
 
-    // 全局挂载 API 接口
-    // ctx.app.config.globalProperties.$http = axios
-    // if (typeof window !== 'undefined') {
-    //     window.$api = api;
-    // }
-
-    // register your custom global components
-    // ctx.app.component('MyGlobalComponent' /* ... */)
   }
 }
