@@ -8,7 +8,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 
   '/study/redis/': getItems("study/redis"),
   '/tools/python/': getItems("tools/python"),
-  '/lift/happy/': getItems("lift/happy"),
+  '/life/happy/': getItemsByDate("life/happy"),
 }
 
 /**
