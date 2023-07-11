@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /categories/issues/index
+      link: /growth/issues/index
     - theme: alt
       text: 在 GitHub 查看
       link: https://github.com/printf200/printf200-blog

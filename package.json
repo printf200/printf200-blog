@@ -39,12 +39,26 @@
     "url": "https://github.com/printf200/printf200-blog/issues"
   },
   "dependencies": {
+    "@antv/g2plot": "2.4.30",
+    "axios": "^1.4.0",
     "blueimp-md5": "^2.19.0",
     "dayjs": "^1.11.7",
     "fast-glob": "^3.2.12",
     "gitalk": "^1.8.0",
     "gray-matter": "^4.0.3",
     "jquery": "^3.6.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "@antv/g-base": "0.5.11",
+      "@antv/path-util": "2.0.15",
+      "@antv/attr": "0.3.5"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
   },
   "homepage": "https://github.com/printf200/printf200-blog#readme"
 }
