@@ -16,4 +16,17 @@ export const head: HeadConfig[] = [
   ['meta', { property: 'og:site', content: metaData.site }],
   ['meta', { property: 'og:site_name', content: metaData.title }],
   ['meta', { property: 'og:image', content: metaData.image }],
+
+  // 百度统计代码：https://tongji.baidu.com
+  ['script', {}, `var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?ff5948c8c752446dffddc70957b0cc44";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();`],
+
+
+
+
 ];
