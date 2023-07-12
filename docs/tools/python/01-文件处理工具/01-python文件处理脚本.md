@@ -1,10 +1,9 @@
 ---
-title: Redis之初入师门
+title: Python文件处理
 author: Printf200
 date: 2023/07/12 00:52
 ---
- 
->大家好，我是200，一个喜欢生活的程序员～
+# Python文件处理
 
 ## 引言-应用背景
 
