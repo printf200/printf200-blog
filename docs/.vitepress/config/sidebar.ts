@@ -1,12 +1,14 @@
 import type { DefaultTheme } from 'vitepress';
 import { sync } from 'fast-glob';
 import * as matter from 'gray-matter';
+import {routeObject} from "./constants";
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/growth/issues/': getItems("growth/issues"),
   '/growth/solutions/': getItems("growth/solutions"),
 
   '/study/redis/': getItems("study/redis"),
+  '/study/reprint/': getItems("study/reprint"),
   '/tools/python/': getItems("tools/python"),
   '/life/happy/': getItemsByDate("life/happy"),
 }
@@ -138,6 +140,7 @@ function getItems (path: string) {
       total += 1;
     })
 
+    groupName = groupName in routeObject ? routeObject[groupName] : groupName;
     // 3.向前追加到分组
     // 当分组内文章数量少于 A 篇或文章总数显示超过 B 篇时，自动折叠分组
     groups.push({

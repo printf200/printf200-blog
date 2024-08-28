@@ -8,3 +8,8 @@ export const metaData = {
   site,
   image: `${site}/logo.jpg`,
 };
+export const routeObject = {
+  'redis-study': 'Redis学习教程',
+  'fileProcess': '文件处理工具',
+  'design-pattern-applying': '设计模式应用'
+}

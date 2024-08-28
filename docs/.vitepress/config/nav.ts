@@ -20,6 +20,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '学习日记',
     items: [
       { text: 'Redis从入门到源码解读', link: '/study/redis/index', activeMatch: '/study/redis/' },
+      { text: '转载学习知识', link: '/study/reprint/index', activeMatch: '/study/reprint/' }
     ],
     activeMatch: '/study/'
   },
